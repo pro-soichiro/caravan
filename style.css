@@ -239,3 +239,61 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+/* レスポンシブデザイン */
+
+@media screen and (max-width:425px) {
+  .main-visual-content {
+    width: 100%;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .nav-list-item {
+    display: block;
+    padding-top: 5px;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .blog {
+    width: 100%;
+  }
+  .blog-item {
+    padding: 0 10px;
+  }
+  .blog-image {
+    width: 50%;
+  }
+  .blog-text {
+    padding-left: 20px;
+  }
+
+  .pagination {
+    padding-bottom: 40px;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .sidebar-contents {
+    padding: 50px 10px;
+    justify-content: center;
+  }
+
+  .category {
+    display: none;
+  }
+
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+
+}
